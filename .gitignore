@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# OS
+.DS_Store
+
+# Large intermediate files (can regenerate)
+dataset/raw_corpus.jsonl
+dataset/cleaned_corpus.jsonl
+dataset/scored_corpus.jsonl
+test_output/
